@@ -1,0 +1,9 @@
+.material-icons{ 
+	color: rgba(255, 255, 255, 1);
+	margin-top: 50%;
+}
+
+button {
+	position: absolute;
+	z-index: 100;
+}

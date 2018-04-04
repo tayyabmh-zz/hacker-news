@@ -1,0 +1,1 @@
+Last thing I worked on was learn what Axios did and npm isntalled axios and redux-axios midware

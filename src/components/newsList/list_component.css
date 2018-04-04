@@ -1,0 +1,84 @@
+.list-container {
+	height: 90vh;
+	background-color: white;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	border: none;
+	overflow-y: scroll;
+}
+
+.list-content {
+	height: 100px;
+	text-align: center;
+	float: left;
+	margin: 10px;
+	background-color: #eee;
+	transition: all 0.3s;
+	border-radius: 6px;
+}
+
+.list-content:hover {
+  -moz-transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+.list-content p{
+	font-size: 12px;
+	tex-align: left;
+}
+
+.list-content h4 {
+	font-size: 14px;
+}
+
+.body-content {
+	float:left;
+}
+
+.list-content a {
+	text-decoration: none;
+	color: #000;
+}
+
+.list-content a:hover {
+	text-decoration: underline;
+}
+
+.spinner {
+	margin: 50px auto;
+}
+
+.refresh-div {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+}
+
+
+.refresh {
+	background: #FD6721;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 500;
+	height: 48px;
+	outline: 0;
+	padding: 0 34px;
+	transition: all .15s ease;
+	margin: 0 130px;
+}
+
+.refresh:hover {
+	background: #fc834b;
+	box-shadow: 0 8px 12px rgba(50,50,93,.4), 0 1px 3px rgba(0,0,0,.08);
+	transform: translateY(-1px);
+}
+
